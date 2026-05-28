@@ -22,7 +22,7 @@ The shared property: *it is the thing this project is trying to make.*
 Everything else in the artifact chain supports the primary output:
 
 - **Traces** explore; they may lead to a draft.
-- **PDLs (prompt development logs)** specify what a draft should contain before generating it.
+- **PDLs (prompt development logs)** specify what a draft should contain (captured while drafting the prompt, or retrospectively).
 - **Prompts** are finished specifications derived from a PDL.
 - **Notes** capture lightweight material that may feed any of the above.
 - **Modlogs** record revisions *to* a draft after the fact.
@@ -121,7 +121,7 @@ If the draft is likely to be revised later, mention once: *"When you revise this
 
 - **Never write to the primary-output folder except through this skill.** A plain `Write` into `drafts/` loses the frontmatter, the session link, and the upstream provenance. If you catch yourself about to `Write` into `drafts/`, invoke this skill instead.
 - **Do not fabricate references.** Only list upstream artifacts the user names, or ones visible in the current conversation where the link is unambiguous.
-- **Do not silently revise a draft.** If the user asks to edit an existing draft, use `/mhc-modlog` to capture the revision rationale before changing the file.
+- **Do not silently revise a draft.** If the user asks to edit an existing draft, use `/mhc-modlog` to capture the revision rationale. The capture can happen before, during, or after the edit — what matters is that it happens.
 - **Decalogo intact.** Apollo (surface what the output assumes), Themis (name the authority that legitimates the output), Esdra (validate before saving).
 
 ---

@@ -116,7 +116,7 @@ Do **not** offer for: first-draft creation, pure reformatting with no intellectu
 
 ## Rules
 
-- **Modlog before edit.** Write the modlog *before* changing the artifact. The modlog captures the decision; the edit implements it. Inverting the order risks losing the decision rationale.
+- **Capture the decision, not the order.** Write the modlog when the capture is most useful — before, during, or after the edit. What matters is that the decision rationale is captured; the temporal order relative to the edit is a tool choice, not a rule. After-the-fact capture (post-hoc, while the rationale is still clear in mind) is fully legitimate.
 - **Decalogo intact.** Apollo (surface the assumption that drove this change), Minerva (state the cons of the chosen direction), Esdra (validate before saving).
 
 ---

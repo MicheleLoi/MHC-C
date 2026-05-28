@@ -1,7 +1,7 @@
 ---
 name: mhc-pdl
-description: "Create or update a prompt development log (PDL) — document the decisions about what a prompt should generate before generating it. Filesystem-only, no MCP server required. Reads content_schemas from adapt.md if declared; otherwise uses the default fallback schema."
-when_to_use: "When specifying what to generate, before producing the prompt. Each PDL entry documents an option-weighing decision: alternatives considered, choice made, rationale, downstream impact."
+description: "Create or update a prompt development log (PDL) — document the decisions about what a prompt should generate. Often used while specifying the prompt; equally valid as a retrospective capture of decisions made in a prompt already produced. Filesystem-only, no MCP server required. Reads content_schemas from adapt.md if declared; otherwise uses the default fallback schema."
+when_to_use: "When you want to capture the option-weighing decisions behind a prompt — typically while specifying the prompt, also valid retrospectively when the decisions deserve a written record. Each PDL entry documents an option-weighing decision: alternatives considered, choice made, rationale, downstream impact."
 allowed-tools:
   - Read
   - Write

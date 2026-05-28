@@ -349,7 +349,7 @@ The deliverable alone isn't enough. For work that matters — legal, consulting,
 
 **`<traces/ | tracce/>`** — crystallized thinking after exploratory sessions. Use `/mhc-trace`.
 
-**`<pdl/>`** — PDLs documenting **what** a draft should contain, before generating it. Use `/mhc-pdl`.
+**`<pdl/>`** — PDLs documenting **what** a draft should contain. Use `/mhc-pdl` — while drafting the prompt, or retrospectively.
 
 **`<prompts/ | prompt/>`** — finished AI prompts derived from a PDL.
 
@@ -365,7 +365,7 @@ The deliverable alone isn't enough. For work that matters — legal, consulting,
 
 - A *trace* explores a question; it may lead to a *PDL* that specifies what to generate; the PDL produces a *prompt*; the prompt yields a *draft* (primary output).
 - A *note* is lightweight — reference material, an idea, a discovery. It may become any of the above, or stay as-is.
-- A *modlog* is always retrospective: it documents what changed in a draft and why. Write the modlog *before* editing the draft.
+- A *modlog* documents what changed in a draft and why. It can be written before, during, or after the edit — the capture matters, the order doesn't.
 
 Not every draft has a trace and a PDL upstream. Ad-hoc drafts are fine. But the chain exists when you need it, and making it explicit in the `references:` field keeps the provenance auditable.
 
