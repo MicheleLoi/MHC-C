@@ -1,4 +1,5 @@
 ---
+name: mhc-modlog
 description: "Create or update a modification log — track intellectual decisions during revision of any existing artifact (document, script, spec, prompt, config, skill file). Filesystem-only, no MCP server required. Reads content_schemas from adapt.md if declared; otherwise uses the default fallback schema."
 when_to_use: "When revising any existing artifact and the changes carry intellectual decisions (not typos, not pure reformatting). Key question: is this a revision of something that already exists, or a first draft? If revision with intellectual decisions, offer modlog."
 allowed-tools:

@@ -1,0 +1,21 @@
+{
+  "name": "mhc-c",
+  "version": "0.1.0",
+  "description": "MHC-C — Sette piccoli passaggi che accompagnano il lavoro intellettuale con un assistente AI e lasciano dietro di sé un sentiero leggibile: appunti rapidi, intuizioni cristallizzate, registro dei cambi a una bozza, documentazione di cosa volevi ottenere da un'istruzione, esito finito salvato con le sue fonti a monte, orientamento sullo stato del progetto, predisposizione iniziale al primo uso. Tutto resta in semplici file di testo sul tuo computer, in una cartella che ti appartiene. Nessuna dipendenza da internet, da un server esterno o da un servizio in abbonamento.",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "capture",
+    "knowledge-management",
+    "epistemic-trace",
+    "decision-log",
+    "prompt-engineering",
+    "italian"
+  ],
+  "author": {
+    "name": "Michele Loi"
+  },
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/MicheleLoi/MHC-C",
+  "repository": "https://github.com/MicheleLoi/MHC-C"
+}

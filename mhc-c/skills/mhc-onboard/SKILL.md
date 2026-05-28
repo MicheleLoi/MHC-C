@@ -1,4 +1,5 @@
 ---
+name: mhc-onboard
 description: "First-use experience for MHC-C. Sets up a project to use the MHC framework capture skills (note, trace, modlog, pdl, output, status) as a standalone Claude Code plugin — no server, no network, no external dependencies. Handles greenfield, existing projects, and migrations from legacy MHC layouts. Generates .mhc-config.json + adapt.md + CLAUDE.md + methodology.md."
 when_to_use: "When a project needs to be set up with MHC-C, or when re-running onboarding to repair / re-verify the project's adaptation file. Run once per project."
 allowed-tools:

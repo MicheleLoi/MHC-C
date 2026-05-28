@@ -29,18 +29,20 @@ Non è obbligatorio adottare la cornice intera — puoi usare anche solo `/mhc-n
 
 ## Come si installa
 
-In Claude Code:
+Due passaggi guidati dentro Claude Code:
 
-```bash
-claude /plugin marketplace add MicheleLoi/MHC-C
-claude /plugin install mhc-c@MHC-C
+```text
+/plugin marketplace add MicheleLoi/MHC-C
+/plugin install mhc-c@MHC-C
 ```
 
-Poi su qualsiasi progetto:
+Poi, dentro qualsiasi progetto su cui vuoi adottare MHC-C:
 
-```bash
-claude /mhc-onboard
+```text
+/mhc-onboard
 ```
+
+Documentazione canonica Anthropic in italiano: [Trova e installa plugin](https://code.claude.com/docs/it/discover-plugins). Prima volta con Claude Code? Vedi [code.claude.com/docs/it/desktop](https://code.claude.com/docs/it/desktop).
 
 `/mhc-onboard` ti chiede lingua, nome progetto, natura (design / governance / research / code-embedded / operational / hybrid), crea le cartelle base, scrive `.mhc-config.json` + `adapt.md` + `CLAUDE.md` + `methodology.md`, e l'ambiente è pronto. Il setup è one-shot; le sessioni successive sono silenziose.
 

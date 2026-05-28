@@ -1,4 +1,5 @@
 ---
+name: mhc-output
 description: "Save a primary output (deliverable) with structured frontmatter and optional references to upstream artifacts. Primary outputs are the products of a project — memos, briefs, scripts, papers, articles, whatever the project is making. Every other artifact type (notes, traces, PDLs, modlogs) supports, specifies, or revises them. Filesystem-only, no MCP server required."
 when_to_use: "When you and the user have produced something meant to stand as a primary output. Use this to save the output into the project's primary-output folder with frontmatter and provenance references, not a plain Write."
 allowed-tools:

@@ -1,0 +1,16 @@
+{
+  "name": "MHC-C",
+  "owner": {
+    "name": "Michele Loi"
+  },
+  "plugins": [
+    {
+      "name": "mhc-c",
+      "source": "./mhc-c",
+      "description": "MHC-C — Strumenti per lavorare a un parere, una memoria, un progetto o una ricerca insieme a un assistente AI in modo che, fra sei mesi, tu o un collega possiate ricostruire perché il risultato è venuto così. Sette piccoli passaggi da invocare quando servono: prendere appunti (mhc-note), fissare un'intuizione emersa parlando (mhc-trace), registrare i cambi fatti a una bozza (mhc-modlog), documentare cosa volevi ottenere da un'istruzione data all'assistente (mhc-pdl), salvare l'esito finito (mhc-output), capire a che punto sei (mhc-status), predisporre un nuovo progetto al primo uso (mhc-onboard). Tutto resta sul tuo computer in semplici file di testo: niente database, niente cloud, niente che esca dalla tua macchina. AGPL-3.0.",
+      "author": {
+        "name": "Michele Loi"
+      }
+    }
+  ]
+}

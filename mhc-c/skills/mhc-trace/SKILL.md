@@ -1,4 +1,5 @@
 ---
+name: mhc-trace
 description: "Create an epistemic trace from the current conversation — crystallize insights from exploratory work into a referenceable artifact. Filesystem-only, no MCP server required. Reads content_schemas from adapt.md if declared; otherwise uses the default fallback schema."
 when_to_use: "After brainstorming or exploratory conversation, when insights need preserving — turning points, contradictions, open questions, formulations worth quoting back."
 allowed-tools:

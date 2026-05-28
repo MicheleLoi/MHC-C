@@ -1,4 +1,5 @@
 ---
+name: mhc-status
 description: "Show current session state and orient yourself in the project. Reads .mhc-config.json + session_topology.yaml + adapt.md frontmatter to surface: current SID, goal, recent session history, skills enabled, drift between adapt.md and CLAUDE.md. Triggered organically when the user asks 'cosa facciamo oggi', 'a che punto siamo', 'dove eravamo rimasti', 'stato del progetto', 'orientami', 'riassumi', 'come va', 'what is the state', 'where were we', 'orient me', 'recap'."
 when_to_use: "When the user opens a session with contextual orientation prompts (cosa facciamo oggi, a che punto siamo, dove eravamo rimasti, stato del progetto, orientami, riassumi, come va, what is the state, where were we, orient me, recap), or any time they explicitly want to know the current MHC session state. Filesystem read-only — no MCP server, no network, no sensitive data leaves the machine."
 allowed-tools:

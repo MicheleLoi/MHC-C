@@ -1,4 +1,5 @@
 ---
+name: mhc-note
 description: "Quick capture — save an insight, decision, or reference as a lightweight artifact. Filesystem-only, no MCP server required. Reads content_schemas from adapt.md if declared; otherwise uses the default fallback schema."
 when_to_use: "When something needs capturing quickly without the overhead of a full trace or modlog — an observation, a reusable snippet, a decision made in passing, a reference to keep handy, anything that does not fit elsewhere."
 allowed-tools:
